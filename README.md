@@ -1,10 +1,18 @@
 # Regression
 
-Project Name - Seoul Bike Sharing Demand Prediction
-Project Type - Regression
-Contribution - Individual
-Team Member 1 - Kiran
-Technical part:
+# Project Name - Seoul Bike Sharing Demand Prediction
+
+# Project Type - Regression
+
+# Contribution - Individual
+
+# Name - Kiran
+
+# Problem Statement:
+
+Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
+
+# Technical part:
 
 Dataset file has 8760 rows and 14 columns.
 
@@ -20,7 +28,8 @@ Duplicate Values: No duplicate values were there.
 
 Important features: Features 'temperature','Dew point temperature ' 'Solar Radiation ' 'Visibility ' and 'Wind speed', were of prime importance.
 
-Project Summary -
+# Project Summary -
+
 During our analysis, we began by performing Exploratory Data Analysis (EDA) on all the features in our dataset. We started with the dependent variable, 'Rented Bike Count,' and applied necessary transformations. Afterwards, we proceeded to analyze the categorical variables, dropping those with a dominant single class. Additionally, we examined the numerical variables, investigating their correlation, distribution, and relationship with the dependent variable. Certain numerical features with predominantly 0 values were removed, and we applied one-hot encoding to the categorical variables.
 
 Based on correlation matrix we can say that for 'Rented Bike Count' there is a positive correlation with 'temperature(0.53)', 'Wind speed(0.12)', 'Visibility (0.19)', 'Dew point temperature (0.37)' and 'Solar Radiation (0.26)'. Also we have found some negative correlations for 'rented bike count' with 'humidity', 'rainfall' and 'snowfall'
